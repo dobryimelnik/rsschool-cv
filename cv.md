@@ -4,20 +4,20 @@
 * #### Phone number: +375(29)141-29-799
 * #### Telegram: @oleg97mar
 * #### Discord: Oleg(@dobryimelnik)
-***
+===
 ### Skills
-+ HTML/CSS
-+ JS (basic)
-+ PHP (basic)
-+ Wordpress
-***
+* HTML/CSS
+* JS (basic)
+* PHP (basic)
+* Wordpress
+===
 ### Education 
-1. BSAM, Minsk bachelor degree
-2. GSU, Gomel course of Web-design
-***
+* BSAM, Minsk bachelor degree
+* GSU, Gomel course of Web-design
+===
 ### Work examples
 [My works](https://dobryimelnik.github.io/portfolio/ "portfolio")
-***
+===
 ### Code example
 ```
 function randNumber() {
