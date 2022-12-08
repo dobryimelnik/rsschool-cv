@@ -4,23 +4,27 @@
 * #### Phone number: +375(29)141-29-799
 * #### Telegram: @oleg97mar
 * #### Discord: Oleg(@dobryimelnik)
-===
+
+---
 ### Skills
 * HTML/CSS
 * JS (basic)
 * PHP (basic)
 * Wordpress
-===
+
+---
 ### Education 
 * BSAM, Minsk bachelor degree
 * GSU, Gomel course of Web-design
-===
+
+---
 ### Work examples
 [My works](https://dobryimelnik.github.io/portfolio/ "portfolio")
-===
+
+--- 
 ### Code example
-```
-function randNumber() {
+
+```function randNumber() {
     let num = Math.random();
     num = num*100;
     num = Math.round(num);
