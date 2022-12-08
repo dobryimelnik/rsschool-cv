@@ -23,8 +23,8 @@
 
 --- 
 ### Code example
-
-```function randNumber() {
+```
+function randNumber() {
     let num = Math.random();
     num = num*100;
     num = Math.round(num);
