@@ -1,7 +1,7 @@
 # rsschool-cv
 ## Maryankov Oleg
 ### Contacts
-* #### Phone number: +375(29)141-29-799
+* #### Phone number: +375(29)141-29-79
 * #### Telegram: @oleg97mar
 * #### Discord: Oleg(@dobryimelnik)
 
