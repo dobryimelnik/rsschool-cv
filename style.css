@@ -12,9 +12,132 @@
 	box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: rgb(42, 55, 58);
     font-size: 24px;
     font-weight: 400;
+    line-height: 1.5;
+    color: rgb(42, 55, 58);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+    box-shadow: 0px 0px 8px 4px rgba(42, 55, 58, .2);
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    background-color: #65dbfb;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 20px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+}
+
+.cvname {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    padding: 40px;
+    background-color: #65dbfb;
+}
+
+.cv-photo {
+    display: inline-flex;
+    max-width: 300px;
+    border: 8px solid #fff;
+    order: 1;
+    box-shadow: 0px 0px 8px 2px rgba(42, 55, 58, .2);
+}
+
+.cv-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 4px solid #65dbfb;
+}
+
+.cvname-title {
+    color: #fff;
+    display: inline-flex;
+    order: 2;
+    max-width: 300px;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(42, 55, 58, .2);
+}
+
+.main-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: flex-start;
+}
+
+.main-wrapper section {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #65dbfb;
+    padding: 25px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.main-wrapper .works {
+    border-bottom-color: transparent; 
+}
+
+.main-wrapper .contacts {
+    padding-top: 0;
+}
+
+.main-wrapper ul {
+    display: flex;
+    flex-direction: column;
+}    
+
+.main-wrapper li {
+    padding-left: 20px;
+    border-left: 4px solid #65dbfb;
+}
+
+.works-link {
+    color: inherit;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.works-link:hover {
+    color: #65dbfb;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    background-color: #65dbfb;
+    padding: 0 10px;
+    color: #fff;
 }
