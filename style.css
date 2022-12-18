@@ -14,16 +14,21 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
     color: rgb(42, 55, 58);
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 
 .main {
     display: flex;
@@ -58,6 +63,50 @@ body {
     display: inline-flex;
     order: 2;
     max-width: 300px;
-    font-size: 34px;
+    font-size: 2em;
     text-shadow: 1px 1px 1px rgba(42, 55, 58, .2);
+}
+
+.main-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: flex-start;
+}
+
+.main-wrapper section {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #65dbfb;
+    padding: 25px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.main-wrapper .works {
+    border-bottom-color: transparent; 
+}
+
+.main-wrapper .contacts {
+    padding-top: 0;
+}
+
+.main-wrapper ul {
+    display: flex;
+    flex-direction: column;
+}    
+
+.main-wrapper li {
+    padding-left: 20px;
+    border-left: 4px solid #65dbfb;
+}
+
+.works-link {
+    color: inherit;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.works-link:hover {
+    color: #65dbfb;
 }
