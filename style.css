@@ -128,3 +128,11 @@ ul {
 .works-link:hover {
     color: #65dbfb;
 }
+
+.footer {
+    display: flex;
+    justify-content: end;
+    background-color: #65dbfb;
+    padding: 0 10px;
+    color: #fff;
+}
