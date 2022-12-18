@@ -14,7 +14,50 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: rgb(42, 55, 58);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 1.5;
+    color: rgb(42, 55, 58);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.cvname {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    padding: 40px;
+    background-color: #65dbfb;
+}
+
+.cv-photo {
+    display: inline-flex;
+    max-width: 300px;
+    border: 8px solid #fff;
+    order: 1;
+    box-shadow: 0px 0px 8px 2px rgba(42, 55, 58, .2);
+}
+
+.cv-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 4px solid #65dbfb;
+}
+
+.cvname-title {
+    color: #fff;
+    display: inline-flex;
+    order: 2;
+    max-width: 300px;
+    font-size: 34px;
+    text-shadow: 1px 1px 1px rgba(42, 55, 58, .2);
 }
