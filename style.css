@@ -137,7 +137,14 @@ ul {
 .footer {
     display: flex;
     justify-content: end;
+    align-items: center;
+    column-gap: 30px;
     background-color: #65dbfb;
-    padding: 0 10px;
+    padding: 20px;
     color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    cursor: pointer;
 }
