@@ -151,3 +151,18 @@ code {
 .works-link:hover {
     color: #c0805a;
 }
+
+.footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 30px;
+    background-color: #e85e2d;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    cursor: pointer;
+}
