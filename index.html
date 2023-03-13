@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV RS-School</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV RS-School</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
+  <div class="container">
+    <header class="header">
+      <nav class="header-nav">
+          <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#edu" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#langs" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#examples" class="nav-link">Code examples</a></li>
+              <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+          </ul>
+          <!-- /nav-list -->
+      </nav>
+      <!-- /header-nav -->
+    </header>
+    <!-- /header -->
+    <div class="cv-body">
+      <aside class="aside">
+          <h1 class="cvname-title title">Maryankov Oleg</h1>
+          <div class="cv-photo">
+              <img class="cv-image" src="./images/my_photo.jpg" alt="Maryankov Oleg">
+          </div>
+      </aside>
+      <!-- /aside -->
+      <main class="main">
+        <section class="contacts" id="contacts">
+          <h2 class="contacts-title title">Contacts</h2>
+          <ul class="contacts-list">
+              <li class="contacts-item">Phone number: +375(29)141-29-79</li>
+              <li class="contacts-item">Telegram: @oleg97mar</li>
+              <li class="contacts-item">Discord: Oleg(@dobryimelnik)</li>
+          </ul>
+          <!-- /contacts-list -->
+        </section>
+        <!-- /contacts -->
 
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#edu" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#langs" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#examples" class="nav-link">Code examples</a></li>
-                    <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-                </ul>
-                <!-- /nav-list -->
-            </nav>
-            <!-- /header-nav -->
-
-        </header>
-        <!-- /header -->
+      </main>
+      <!-- /main -->
     </div>
-    <!-- /container -->
+    <!-- /cv-body -->
+  </div>
+  <!-- /container -->
 </body>
 </html>
