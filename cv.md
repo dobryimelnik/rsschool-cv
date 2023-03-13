@@ -1,9 +1,9 @@
 # rsschool-cv
 ## Maryankov Oleg
 ### Contacts
-* #### Phone number: +375(29)141-29-79
-* #### Telegram: @oleg97mar
-* #### Discord: Oleg(@dobryimelnik)
+* __Phone number__: _+375(29)141-29-79_
+* __Telegram__: _@oleg97mar_
+* __Discord__: _Oleg(@dobryimelnik)_
 
 ---
 ### About me
@@ -26,9 +26,9 @@ By my main education I am a classical musician. I worked in various teams of Bel
 
 ---
 ### Languages
-* #### Russian: native
-* #### Belorusian: intermediate
-* #### English: pre-intermediate (A2)
+*  __Russian__: _native_
+* __English__: _pre-intermediate (A2)_
+* __Belorusian__: _intermediate_
 
 ---
 ### Work examples
