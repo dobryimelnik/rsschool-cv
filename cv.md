@@ -29,3 +29,30 @@ By my main education I am a classical musician. I worked in various teams of Bel
 * #### Russian: native
 * #### Belorusian: intermediate
 * #### English: pre-intermediate (A2)
+
+---
+### Work examples
+* [Laibas](https://dobryimelnik.github.io/restoran/ "landing-page Laibas")
+* [Traveland](https://dobryimelnik.github.io/trevland/ "landing-page Traveland")
+* [Organic](https://dobryimelnik.github.io/organic/ "landing-page Organic")
+
+---
+### Code example
+```
+function randNumber() {
+    let num = Math.random();
+    num = Math.round(num*100);
+    return num;
+}
+
+let firstNum = randNumber();
+let secondNum = randNumber();
+
+if(firstNum < secondNum) {
+    alert ('the first number less than the second');
+} else if(firstNum > secondNum) {
+    alert ('the first number greater than the second');
+} else {
+    alert ('The numbers are equal');
+}
+```
